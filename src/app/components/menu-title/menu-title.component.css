@@ -1,16 +1,26 @@
-.container__menu-title{
-  color: white;
+.container__menu-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 40px 0 32px;
 }
 
-.container__menu-title > hr{
-  margin-top: 20px;
-  margin-bottom: 5px;
+.container__menu-title h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
-.container__menu-title > h1{
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 135px;
-  font-family: 'Segoe UI';
-  display: flex;
-  justify-content: center;
+
+.container__menu-title hr {
+  flex: 1;
+  height: 2px;
+  border: none;
+  background: linear-gradient(
+    to right,
+    transparent,
+    #e4ae0b,
+    transparent
+  );
 }
